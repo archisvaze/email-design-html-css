@@ -24,6 +24,7 @@ body {
     position: relative;
     overflow: hidden;
     margin: 0 20px;
+    box-shadow: 2px 3px 10px 2px rgba(0, 0, 0, 0.2) ;
 }
 
 .title-container {
