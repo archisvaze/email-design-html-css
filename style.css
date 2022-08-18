@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #16a085;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: white;
+    border-radius: 9px;
+    padding: 50px 70px 160px 70px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+.title-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.title-container p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.title-container img{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 100px;
+}
+.sub-title{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 40px;
+}
+
+.item, .total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.item-title{
+    color: rgba(0, 0, 0, 0.7);
+}
+.total p{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+}
+.item-price{
+    font-size: 22px;
+    font-weight: bold;
+}
+.bicycle{
+    position: absolute;
+    margin: 0 auto;
+    width: 540px;
+    bottom: -130px;
+    left: 0;
+    right: 0;
+}
+
