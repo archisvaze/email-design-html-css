@@ -15,7 +15,7 @@ body {
     align-items: center;
 }
 
-.card{
+.card {
     background-color: white;
     border-radius: 9px;
     padding: 50px 70px 160px 70px;
@@ -25,17 +25,20 @@ body {
     overflow: hidden;
     margin: 0 20px;
 }
-.title-container{
+
+.title-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
 }
-.title-container p{
+
+.title-container p {
     font-size: 24px;
     font-weight: bold;
 }
-.title-container img{
+
+.title-container img {
     border: 1px solid rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: center;
@@ -43,37 +46,43 @@ body {
     padding: 10px;
     border-radius: 100px;
 }
-.sub-title{
+
+.sub-title {
     font-size: 14px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.4);
     margin-bottom: 40px;
 }
 
-.item, .total{
+.item,
+.total {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
 }
-.item-title{
+
+.item-title {
     color: rgba(0, 0, 0, 0.7);
 }
-.total p{
+
+.total p {
     font-size: 22px;
     font-weight: 600;
     color: rgba(0, 0, 0, 0.7);
 }
-.item-price{
+
+.item-price {
     font-size: 22px;
     font-weight: bold;
 }
-.bicycle{
+
+.bicycle {
     position: absolute;
     margin: 0 auto;
-    width: 540px;
-    bottom: -130px;
+    height: 400px;
+    width: 550px;
+    bottom: -150px;
     left: 0;
     right: 0;
 }
-
